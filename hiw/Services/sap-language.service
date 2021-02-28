@@ -1,0 +1,8 @@
+{
+    "DestinationName": "hiwservice",
+    "OfflineEnabled": false,
+    "LanguageURLParam": "sap-language",
+    "OnlineOptions": {},
+    "PathSuffix": "",
+    "SourceType": "Cloud"
+}
