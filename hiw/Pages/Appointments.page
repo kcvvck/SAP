@@ -1,0 +1,107 @@
+{
+	"Caption": "Appointments",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AllowDefaultValueIfOneItem": false,
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Select a Hospital",
+							"DataPaging": {
+								"PageSize": 50,
+								"ShowLoadingIndicator": false
+							},
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Fullerbone Healthcare Centre",
+								"Mount Elisabeth (Nobena)",
+								"Mount Elisabeth (Orchid)"
+							],
+							"PickerPrompt": "Please select one single item",
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "e.g. Fullerbone Healthcare Centre"
+							},
+							"_Name": "select_hospital",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"Caption": "Schedule an appointment",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Value": "Enter Date",
+							"_Name": "Date_Pick",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"AllowDefaultValueIfOneItem": false,
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Select Time",
+							"DataPaging": {
+								"PageSize": 50,
+								"ShowLoadingIndicator": false
+							},
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"10:00 - 10:10",
+								"12:00 - 12:10",
+								"14:00 - 14:10",
+								"15:10 - 15:20"
+							],
+							"PickerPrompt": "Please select one single item",
+							"_Name": "FormCellListPicker0",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"OnPress": "/hiw/Actions/NavToConfirmation.action",
+							"TextAlignment": "center",
+							"Title": "Next",
+							"_Name": "next_appointments",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "Appointments",
+	"_Type": "Page"
+}

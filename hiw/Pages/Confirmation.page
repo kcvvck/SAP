@@ -1,0 +1,75 @@
+{
+	"Caption": "Confirmation",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"Controls": [
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"Controls": [
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Your slot has been booked at Fullerbone Healthcare Centre!",
+							"Value": "Your slot has been booked at Fullerbone Healthcare Centre!",
+							"_Name": "FormCellTitle0",
+							"_Type": "Control.Type.FormCell.Title"
+						},
+						{
+							"IsVisible": true,
+							"OnPress": "/hiw/Actions/NavToHome.action",
+							"TextAlignment": "center",
+							"Title": "Ok",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"Buttons": [
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionButtonTable0",
+					"_Type": "Section.Type.ButtonTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Confirmation",
+	"_Type": "Page"
+}

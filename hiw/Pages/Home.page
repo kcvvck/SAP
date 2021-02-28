@@ -1,0 +1,112 @@
+{
+	"Caption": "Home",
+	"Controls": [
+		{
+			"LoadingIndicator": {
+				"Enabled": true,
+				"Text": ""
+			},
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"BodyText": "Tan Ah Kow",
+						"DetailImageIsCircular": true,
+						"Footnote": "Singapore",
+						"HeadlineText": "Profile",
+						"Target": "/hiw/Globals/AppDefinition_Version.global"
+					},
+					"Visible": true,
+					"_Name": "Profile",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"Controls": [
+						{
+							"AllowDefaultValueIfOneItem": false,
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Appointments",
+							"DataPaging": {
+								"LoadingIndicatorText": "",
+								"PageSize": 50,
+								"ShowLoadingIndicator": false
+							},
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"OnValueChange": "/hiw/Actions/ApptDetails.action",
+							"PickerItems": [
+								"Vaccination 1 - 29/01/21 4:03pm",
+								"Vaccination 2 - 20/02/21 12:15pm"
+							],
+							"_Name": "FormCellListPicker0",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"validationProperties": {
+								"ValidationMessage": "Fullerbone Healthcare Centre<br>Contact Person: 91234567"
+							}
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"HighlightSelectedItem": false,
+					"ObjectCells": [
+					],
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Buttons": [
+						{
+							"TextAlignment": "center",
+							"Title": "ChatBot",
+							"Visible": true
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionButtonTable1",
+					"_Type": "Section.Type.ButtonTable"
+				},
+				{
+					"Buttons": [
+						{
+							"OnPress": "/hiw/Actions/NavToAppt.action",
+							"TextAlignment": "center",
+							"Title": "Book Now",
+							"Visible": true
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionButtonTable0",
+					"_Type": "Section.Type.ButtonTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable",
+            "src":"https://cdn.cai.tools.sap/webclient/bootstrap.js",
+            "data-channel-id":"462b1069-3d37-45cf-946f-94c93d0a4d6c",
+            "data-token":"9f4f4c51fe87a566fa5d270d54c5b428",
+            "data-expander-type":"CAI",
+            "data-expander-preferences":"JTdCJTIyZXhwYW5kZXJMb2dvJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZjZG4uY2FpLnRvb2xzLnNhcCUyRndlYmNoYXQlMkZ3ZWJjaGF0LWxvZ28uc3ZnJTIyJTJDJTIyZXhwYW5kZXJUaXRsZSUyMiUzQSUyMkNsaWNrJTIwb24lMjBtZSElMjIlMkMlMjJvbmJvYXJkaW5nTWVzc2FnZSUyMiUzQSUyMkNoYXQlMjB3aXRoJTIwbWUhJTIyJTJDJTIyb3BlbmluZ1R5cGUlMjIlM0ElMjJuZXZlciUyMiUyQyUyMnRoZW1lJTIyJTNBJTIyREVGQVVMVCUyMiU3RA==",
+            "id":"cai-webclient-custom"
+		}
+	],
+	"_Name": "Home",
+	"_Type": "Page"
+}

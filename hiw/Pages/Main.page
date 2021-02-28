@@ -1,0 +1,113 @@
+{
+	"Caption": "Health is Wealth",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"Controls": [
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"Controls": [
+						{
+							"AlternateInput": "None",
+							"Caption": "Email Address",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Email",
+							"PlaceHolder": "example@gmail.com",
+							"_Name": "email",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"Controls": [
+						{
+							"Caption": "Password",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Password",
+							"_Name": "password",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"Controls": [
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"OnPress": "/hiw/Actions/NavToHome.action",
+							"Styles": {
+								"Background": "MyButton",
+								"Value": "#F08080"
+							},
+							"TextAlignment": "center",
+							"Title": "Log in",
+							"_Name": "sign_in",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Type": "Section.Type.FormCell"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"DataSubscriptions": [
+	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Logout",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/hiw/Actions/Logout.action",
+				"Visible": true,
+				"_Name": "LogoutToolbarItem",
+				"_Type": "Control.Type.ToolbarItem"
+			},
+			{
+				"Caption": "Sync",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/hiw/Actions/Service/SyncStartedMessage.action",
+				"Visible": "$(PLT,true,true,false)",
+				"_Name": "UploadToolbarItem",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Title",
+	"_Type": "Page"
+}

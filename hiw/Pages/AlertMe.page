@@ -1,0 +1,65 @@
+{
+	"Caption": "AlertMe",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"AllowDefaultValueIfOneItem": false,
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Alert me before appointment:",
+							"DataPaging": {
+								"PageSize": 50,
+								"ShowLoadingIndicator": false
+							},
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": false,
+							"IsSearchCancelledAfterSelection": false,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"1 hour",
+								"2 hours",
+								"1 day",
+								"2 days",
+								"1 week"
+							],
+							"_Name": "FormCellListPicker0",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"IsVisible": true,
+							"OnPress": "/hiw/Actions/NavToHome.action",
+							"TextAlignment": "center",
+							"Title": "Ok",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "AlertMe",
+	"_Type": "Page"
+}
