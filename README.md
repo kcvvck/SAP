@@ -1,6 +1,10 @@
 # SAP - Cloud Computing Challenge
 
-Details: 
+Details:      <br/>
+
+
+
+
 1 - Vaccination Scheduling
     To develop a web application through which patients and health organizations can manage and administer COVID-19 vaccines
 2 - Vaccination Effects
