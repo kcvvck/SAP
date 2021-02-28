@@ -1,0 +1,5 @@
+{
+	"NavigationType": "Cross",
+	"PageToOpen": "/hiw/Pages/AlertMe.page",
+	"_Type": "Action.Type.Navigation"
+}

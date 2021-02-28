@@ -1,0 +1,9 @@
+{
+	"Service": "/hiw/Services/HiwSample.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/hiw/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/hiw/Actions/Service/SyncFailureMessage.action"
+}

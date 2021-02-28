@@ -1,0 +1,5 @@
+{
+	"NavigationType": "Cross",
+	"PageToOpen": "/hiw/Pages/Home.page",
+	"_Type": "Action.Type.Navigation"
+}

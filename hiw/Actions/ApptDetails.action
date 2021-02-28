@@ -1,0 +1,8 @@
+{
+	"CancelCaption": "Back",
+	"Message": "Fullerbone Healthcare Centre<br>Contact Person:91234567",
+	"OKCaption": "Alert Me",
+	"OnCancel": "/hiw/Actions/NavToHome.action",
+	"OnOK": "/hiw/Actions/NavToAlert.action",
+	"_Type": "Action.Type.Message"
+}

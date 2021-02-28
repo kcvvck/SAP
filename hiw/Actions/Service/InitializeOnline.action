@@ -1,0 +1,10 @@
+{
+	"Service": "/hiw/Services/sap-language.service",
+	"_Type": "Action.Type.ODataService.Initialize",
+	"ShowActivityIndicator": true,
+	"OnSuccess": "/hiw/Actions/Service/InitializeOnlineSuccessMessage.action",
+	"OnFailure": "/hiw/Actions/Service/InitializeOnlineFailureMessage.action",
+	"ActionResult": {
+		"_Name": "init"
+	}
+}
